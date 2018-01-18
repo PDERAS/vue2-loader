@@ -1,18 +1,26 @@
 <template>
     <div class="bar-loader">
-        <div class="rect1" :style="'background-color: ' + color" />
-        <div class="rect2" :style="'background-color: ' + color" />
-        <div class="rect3" :style="'background-color: ' + color" />
+        <div class="rect1" :style="rectStyle" />
+        <div class="rect2" :style="rectStyle" />
+        <div class="rect3" :style="rectStyle" />
     </div>
 </template>
 
 <script>
     export default {
         name: 'bar-loader',
+
         props: {
             color: {
                 type: String,
                 default: 'black'
+            }
+        },
+
+        computed: {
+            rectStyle() {
+                var background_color = 'background-color: ' + this.color + ';';
+                return background_color;
             }
         }
     }

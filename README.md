@@ -21,7 +21,8 @@ A vue loader is easily created, and usually combined with a v-if to show/hide th
 | Property  | Required | Type    | Default | Description                                             |
 |-----------|----------|---------|---------|---------------------------------------------------------|
 | color     | false    | String  | 'black' | The color of the loader (can be a hex value)            |
-| type      | false    | String  | 'bars'  | The type of style to use for the loader                 |
+| type      | false    | String  | 'bar'   | The type of style to use for the loader                 |
+[^1]: Avalable Types: bar, spinner
 
 #### Styling
 Styling is currently limited, but can be expanded in the future.
