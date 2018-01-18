@@ -18,10 +18,10 @@ A vue loader is easily created, and usually combined with a v-if to show/hide th
 ```
 
 ## Properties
-| property    | Required | Type    | Default | Description                                             |
-|-------------|----------|---------|---------|---------------------------------------------------------|
-| color       | false    | String  | 'black' | The color of the loader (can be a hex value)            |
-| style       | false    | String  | 'bars'  | The type of style to use for the loader                 |
+| Property  | Required | Type    | Default | Description                                             |
+|-----------|----------|---------|---------|---------------------------------------------------------|
+| color     | false    | String  | 'black' | The color of the loader (can be a hex value)            |
+| type      | false    | String  | 'bars'  | The type of style to use for the loader                 |
 
 #### Styling
 Styling is currently limited, but can be expanded in the future.
