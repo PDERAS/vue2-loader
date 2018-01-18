@@ -12,7 +12,7 @@
         props: {
             color: {
                 type: String,
-                default: '#fff'
+                default: 'black'
             }
         }
     }
