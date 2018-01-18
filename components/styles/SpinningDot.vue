@@ -1,5 +1,5 @@
 <template>
-    <div class="spinner-loader">
+    <div class="spinning-dot-loader">
         <div class="dot1" :style="dotStyle" />
         <div class="dot2" :style="dotStyle" />
     </div>
@@ -7,7 +7,7 @@
 
 <script>
     export default {
-        name: 'spinner-loader',
+        name: 'spinning-dot-loader',
 
         props: {
             color: {
@@ -26,7 +26,7 @@
 </script>
 
 <style>
-    .spinner-loader {
+    .spinning-dot-loader {
         margin: 100px auto;
         width: 40px;
         height: 40px;

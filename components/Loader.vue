@@ -4,14 +4,14 @@
 
 <script>
     import BarLoader from 'styles/Bars'
-    import SpinnerLoader from 'styles/Spinner'
+    import SpinningDotLoader from 'styles/SpinningDot'
 
     export default {
         name: 'loader',
 
         components: {
             BarLoader,
-            SpinnerLoader
+            SpinningDotLoader
         },
 
         props: {
@@ -31,8 +31,8 @@
                 switch (this.type.toLowerCase()) {
                     case 'bar':
                         return 'bar-loader';
-                    case 'spinner':
-                        return 'spinner-loader';
+                    case 'spinning-dot':
+                        return 'spinning-dot-loader';
                     default:
                         return 'bar-loader';
                 }
