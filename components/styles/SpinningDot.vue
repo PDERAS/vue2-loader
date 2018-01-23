@@ -27,7 +27,7 @@
 
 <style>
     .spinning-dot-loader {
-        margin: 100px auto;
+        margin: 6px auto;
         width: 40px;
         height: 40px;
         position: relative;
