@@ -3,7 +3,7 @@
 </template>
 
 <script>
-    import BarLoader from './styles/Bars'
+    import BarLoader from './styles/Bar'
     import SpinningDotLoader from './styles/SpinningDot'
 
     export default {
