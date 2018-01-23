@@ -3,8 +3,8 @@
 </template>
 
 <script>
-    import BarLoader from 'styles/Bars'
-    import SpinningDotLoader from 'styles/SpinningDot'
+    import BarLoader from './styles/Bars'
+    import SpinningDotLoader from './styles/SpinningDot'
 
     export default {
         name: 'loader',
