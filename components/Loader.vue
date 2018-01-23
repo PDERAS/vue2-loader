@@ -1,5 +1,5 @@
 <template>
-    <component :is="getComponent" :color="color" />
+    <component :is="getComponent()" :color="color" />
 </template>
 
 <script>
