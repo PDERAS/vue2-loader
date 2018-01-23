@@ -1,4 +1,4 @@
-import Loader from './components/loader.vue'
+import Loader from './components/Loader.vue'
 
 export default {
     install (Vue, options) {
