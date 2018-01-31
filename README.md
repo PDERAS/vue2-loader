@@ -7,7 +7,10 @@ Vue loader is built as a vue plugin. It can be initialized just as the Vue docum
 ```javascript
 import Loader from "vue2-loader";
 
-Vue.use(Loader);
+Vue.use(Loader, {
+    color:  'black',    // default
+    type:   'bar'       // default
+});
 ```
 ## Usage
 

@@ -6,6 +6,8 @@
     import BarLoader from './styles/Bar'
     import SpinningDotLoader from './styles/SpinningDot'
 
+    import defaults from '../options';
+
     export default {
         name: 'loader',
 
@@ -17,12 +19,12 @@
         props: {
             color: {
                 type: String,
-                default: 'black'
+                default: () => defaults.color
             },
 
             type: {
                 type: String,
-                default: 'bar'
+                default: () => defaults.type
             }
         },
 
