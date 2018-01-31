@@ -5,7 +5,7 @@ A vue.js component to show a loading indicator.
 Vue loader is built as a vue plugin. It can be initialized just as the Vue documentation states.
 
 ```javascript
-import Loader from "vue2-loader";
+import Loader from "@pderas/vue2-loader";
 
 Vue.use(Loader, {
     color:  'black',    // default
