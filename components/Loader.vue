@@ -19,17 +19,21 @@
         props: {
             color: {
                 type: String,
-                default: () => defaults.color
+                default: function() {
+                    return defaults.color;
+                }
             },
 
             type: {
                 type: String,
-                default: () => defaults.type
+                default: function() {
+                    return defaults.type;
+                }
             }
         },
 
         methods: {
-            getComponent() {
+            getComponent: function() {
                 switch (this.type.toLowerCase()) {
                     case 'bar':
                         return 'bar-loader';

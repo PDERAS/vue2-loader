@@ -18,7 +18,7 @@
         },
 
         computed: {
-            rectStyle() {
+            rectStyle: function() {
                 var background_color = 'background-color: ' + this.color + ';';
                 return background_color;
             }

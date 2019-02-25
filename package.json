@@ -1,6 +1,6 @@
 {
   "name": "@pderas/vue2-loader",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A vue 2 component to show a loading indicator",
   "main": "index.js",
   "scripts": {
